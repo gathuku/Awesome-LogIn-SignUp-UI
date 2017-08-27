@@ -1,8 +1,10 @@
 package com.kelvinkamau.www.fonty;
 
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -43,6 +45,14 @@ public class LogInActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(LogInActivity.this,"Reset Password Activity Here!",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent home = new Intent(LogInActivity.this, HomeActivity.class);
+                startActivity(home);
             }
         });
 

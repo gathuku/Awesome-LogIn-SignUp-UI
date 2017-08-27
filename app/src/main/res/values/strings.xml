@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">GDG Kisii</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Our GDG</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_feed">Feed</string>
+    <string name="title_info">Info</string>
 </resources>
